@@ -1,0 +1,51 @@
+/*styles for the landing page*/
+body,html {
+	width: 100%;
+	height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(../digitech.jpg) no-repeat center center fixed;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #f05f44;
+  transition: all 1s; 
+}
+
+h1:hover {transform: scale(1.1);}
+
+hr {
+	max-width: 65px;
+	border-width: 3px;
+	border-color: #F05F44;
+}
+
+.buffer {
+  height: 10rem;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;  
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
+
+.btn-danger {
+  background-color: #F05F44;
+  border-color: #F05F44; }
+
+.btn-danger:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
+  
